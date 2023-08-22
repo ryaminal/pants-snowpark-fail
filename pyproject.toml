@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 120
+select = [
+  "A",   # shadow builtins
+  "AIR", # airflow
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "I",   # isort
+  "W",   # pycodestyle warnings
+]
+ignore = [
+  "E501",   # line too long, handled by black
+  "AIR001", # airflow task/variable names
+]
+
+[tool.black]
+line-length = 120
+preview = true

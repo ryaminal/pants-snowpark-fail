@@ -1,0 +1,11 @@
+[GLOBAL]
+level = "debug"
+pants_version = "2.16.0"
+backend_packages = ["pants.backend.python"]
+
+[anonymous-telemetry]
+enabled = false
+
+[python]
+interpreter_constraints = [">=3.10.*"]
+enable_resolves = true
