@@ -3,6 +3,7 @@ Thanks to the fantastic help from the pants folks on slack, answer was to change
 
 Slack convo at: https://pantsbuild.slack.com/archives/C046T6T9U/p1692667074554899
 
+# Original Issue
 Having an issue with Pants and `snowflake-snowpark-python` library.
 
 attempt to do 
