@@ -1,3 +1,8 @@
+# Resolution
+Thanks to the fantastic help from the pants folks on slack, answer was to change the `interpreter_constraints` to have a constraint on the max version of python to `<3.11`... It was a stupid copy/paste/understanding failure from me. Whoops!
+
+Slack convo at: https://pantsbuild.slack.com/archives/C046T6T9U/p1692667074554899
+
 Having an issue with Pants and `snowflake-snowpark-python` library.
 
 attempt to do 
@@ -31,3 +36,5 @@ Another variant is to change the `3rdparty/python/requirements.txt` to have just
 When that is done, then try a `pip install snowflake-snowpark-python` and that works, as expected.
 
 Not certain what I'm missing here. `snowflake-snowpark-python` is the first/only lib i've encountered that has a problem.
+
+
